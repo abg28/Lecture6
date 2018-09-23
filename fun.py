@@ -2,7 +2,7 @@ def main():
     add_two(3, 5)
     subtract_two(2, 1)
     multiply_two(5, 5)
-    multiply_three(6, 6, 6)
+    divide_by_three(add_three(1, 2, 3))
 
 
 def add_two(v1, v2):
@@ -30,16 +30,24 @@ def multiply_two(v1, v2):
     print(p)
 
 
-def multiply_three(v1, v2, v3):
-    """ multiply two numbers
+def add_three(v1, v2, v3):
+    """ add three numbers
 
     :param v1: number one
     :param v2: number two
     :param v3: number three
-    :returns: product number
+    :returns: sum number
     """
-    p = v1 * v2 * v3
+    p = v1 + v2 + v3
     print(p)
+
+
+def divide_by_three(num):
+    """ divides a number by three
+
+    :param num: the number to be divided
+    :returns: quotient of num and three
+    """
 
 
 if __name__ == '__main__':
