@@ -11,12 +11,16 @@ def add_two(v1, v2):
     p = v1 + v2
     print(p)
 
+    return p
+
 
 def subtract_two(v1, v2):
     """ do more
     """
     p = v1 - v2
     print(p)
+
+    return p
 
 
 def multiply_two(v1, v2):
@@ -28,6 +32,8 @@ def multiply_two(v1, v2):
     """
     p = v1 * v2
     print(p)
+
+    return p
 
 
 def add_three(v1, v2, v3):
@@ -41,6 +47,8 @@ def add_three(v1, v2, v3):
     p = v1 + v2 + v3
     print(p)
 
+    return p
+
 
 def divide_by_three(num):
     """ divides a number by three
@@ -48,6 +56,8 @@ def divide_by_three(num):
     :param num: the number to be divided
     :returns: quotient of num and three
     """
+
+    return num/3
 
 
 if __name__ == '__main__':
